@@ -1,0 +1,33 @@
+/* IntroMotion 애니메이션 (앱 로고 회전) */
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+/* 애플리케이션이 나타날 때의 fade-in 애니메이션 */
+.app-container {
+    opacity: 1;
+}
+
+/* fade-out 효과 */
+.app-container.fade-out {
+    opacity: 0;
+}
+
+/* NovelBackground 애니메이션 (책갈피 내려오기) */
+@keyframes fall {
+    0% {
+      transform: translateY(-100px); /* 처음에는 위쪽에 위치 */
+    }
+    100% {
+      transform: translateY(100px); /* 내려오면서 끝에 위치 */
+    }
+}
+
+.big-bookmark {
+    animation: fall 1s ease-in-out forwards;
+  }
