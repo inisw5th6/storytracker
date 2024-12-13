@@ -1,0 +1,10 @@
+{
+  "name": "My App",
+  "short_name": "App",
+  "version": "1.0",
+  "description": "This is my app.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
